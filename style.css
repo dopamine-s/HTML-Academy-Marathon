@@ -4,29 +4,38 @@ width: 1400px;
 
 background: #EFE6E4;}
 header {
-    
     width: 1400px;
     height: 715px;
-    left: 0px;
-    top: 0px
-    
-}
+      }
 #header-img { background: 
     url("img/Header-background.png");
     background-size:auto;}
 .about-us {
     width: 1400px;
     height: 849px;   
+    
+}
+.about-us-textblock {
+    width: 528px;
+    height: 330px;
+    display: inline-block;
+}
+.about-us-numbers {
+width: 1400px;
+height: 273px;
+
 }
 .our-works {
     width: 1200px;
     height: 1099px;
+   
 }
 .our-works-textblock {
 width: 488px;
 height: 451px;
 display:inline-block;
 background: rgba(100, 72, 69, 0.8);
+
 }
 .our-works p {
 width: 418px;
@@ -37,7 +46,7 @@ font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-display:inline-block;
+
 }
 .our-works h2 {
 width: 332px;
@@ -48,29 +57,31 @@ font-weight: normal;
 font-size: 40px;
 line-height: 50px;
 text-transform: uppercase;
-color: #533738;    
+color: #533738;  
+
 }
 .team {
     width: 1399px;
     height: 998px;
     background: #E2C4BA;
+    
 }
 
 .team-members {
     list-style-type: none;
+   
 }
 .reviews {
     width: 1036px;
     height: 658px; 
+    
 }   
 #feedback-form {
     width: 1400px;
     height: 624px;
-}  
-#feedback-form {
     display: inline-block;
+  
 }
 footer {
  width: 1200px;
- height: 30px;
-}
+ height: 30px;}
