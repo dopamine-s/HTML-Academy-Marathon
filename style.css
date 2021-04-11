@@ -1,0 +1,24 @@
+body {
+height: 5372px;
+width: 1400px;
+
+background: #EFE6E4;}
+header {
+    
+    width: 1400px;
+    height: 715px;
+    left: 0px;
+    top: 0px
+    
+}
+#header-img { background: 
+    url("img/Header-background.png");
+    background-size:auto;}
+
+.team {list-style-type: none;
+    
+    width: 1399px;
+    height: 998px;
+    
+    background: #E2C4BA;
+}
