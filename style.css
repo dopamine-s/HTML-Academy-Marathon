@@ -75,21 +75,51 @@ font-weight: normal;
 font-size: 40px;
 line-height: 50px;
 text-transform: uppercase;
-color: #533738;  
+color: #533738;}  
 
-}
+.our-works a {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #533738;
+    text-decoration: none;}
+    
+.moar::after {
+content: url("img/Arrow_3.png");
+}   
 .team {
     width: 1399px;
     height: 998px;
     background: #E2C4BA;
     
 }
+.team h2 {
+
+    text-align: center;
+}
 
 .team-members {
     list-style-type: none;
-   
+    text-align:left}
+figure {
+display: block;
+float: left;
 }
 figcaption {width: 320px;}
+
+
+
+.how-w-w {
+display: block;
+width: 1200px;
+height: 300px;
+
+}
+
+
+
 .reviews {
     width: 1036px;
     height: 658px; 
