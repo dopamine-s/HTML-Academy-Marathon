@@ -1,23 +1,25 @@
 body {
 height: 5372px;
 width: 1400px;
-
+font-family: Montserrat;
+color:#533738;
 background: #EFE6E4;}
+header a {text-decoration: none;} 
 header {
     width: 1400px;
-    height: 715px;
-      }
+    height: 715px;}   
+
+ .logo {text-transform: uppercase;}
+ .logo img {margin-bottom: -3px;}   
 #header-img { background: 
     url("img/Header-background.png");
     background-size:auto;}
 .header-list {
-    list-style-type: none;
+    list-style-type: none;   
 }   
 .about-us {
     width: 1400px;
-    height: 849px;
- 
-    
+    height: 849px;   
  }    
 .about-us-textblock {
     width: 528px;
@@ -26,15 +28,10 @@ header {
     text-align: left;
     vertical-align: top;
     margin: 0px 40px;
-    font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
-
-
-
-color: #533738;
 }
 .about-us-numbers {
 width: 1400px;
@@ -53,12 +50,10 @@ height: 451px;
 background: rgba(100, 72, 69, 0.8);
 display: inline-block;
 vertical-align: top;
-
 }
 .our-works p {
 width: 418px;
 height: 150px;
-font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -69,21 +64,18 @@ color: #FFFFFF;
 .our-works h2 {
 width: 332px;
 height: 50px;
-font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 50px;
-text-transform: uppercase;
-color: #533738;}  
+text-transform: uppercase;}
+
 
 .our-works a {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 37px;
-    color: #533738;
     text-decoration: none;}
     
 .moar::after {
@@ -99,16 +91,12 @@ content: url("img/Arrow_3.png");
 
     margin-left: 550px;
     display: inline-block;
-    font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 50px;
-
-
 text-transform: uppercase;
 
-color: #533738;
 }
 
 .team-members {
@@ -121,32 +109,26 @@ float: left;
 }
 figcaption {
     width: 320px;
-    font-family: Montserrat;
-    font-style: normal;
+        font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-    color: #533738;
-}
-
-
+    }
 
 .how-we-work {
-display: block;
+
 width: 1200px;
 height: 300px;}
 
 .how-we-work-list {
-font-family: Montserrat;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 text-align: center;
-color: #533738;
+list-style:none;
+text-decoration: none;
 }
-
-
 .reviews {
     width: 1036px;
     height: 658px; 
