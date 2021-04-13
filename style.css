@@ -97,27 +97,54 @@ content: url("img/Arrow_3.png");
 }
 .team h2 {
 
-    text-align: center;
+    margin-left: 550px;
+    display: inline-block;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 50px;
+
+
+text-transform: uppercase;
+
+color: #533738;
 }
 
 .team-members {
     list-style-type: none;
     text-align:left}
+    
 figure {
 display: block;
 float: left;
 }
-figcaption {width: 320px;}
-
-
-
-.how-w-w {
-display: block;
-width: 1200px;
-height: 300px;
-
+figcaption {
+    width: 320px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;
 }
 
+
+
+.how-we-work {
+display: block;
+width: 1200px;
+height: 300px;}
+
+.how-we-work-list {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #533738;
+}
 
 
 .reviews {
