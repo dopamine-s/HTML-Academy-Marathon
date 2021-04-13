@@ -1,22 +1,21 @@
 body {
-height: 5372px;
-width: 1400px;
+
 font-family: Montserrat;
 color:#533738;
 background: #EFE6E4;}
 
 header {
-    width: 1400px;
-    height: 715px;} 
+    } 
 header a {text-decoration: none;}
  .logo {text-transform: uppercase;
     font-size: 16px;
 line-height: 19,5px;
+color:#533738;
 }
- .logo img {margin-bottom: -3px;}   
+ .logo img {}   
 #header-img { background: 
     url("img/Header-background.png");
-    background-size:auto;}
+   }
 .header-list {
     list-style-type: none;}
  .link{
@@ -25,47 +24,36 @@ font-family: Montserrat;
  }  
  .link.request {
      border: solid 1px #533738;
-     background: #CC8B86; 
-     padding: 10px;
+     background: #CC8B86;
+     ; 
+     
  }    
    
 .about-us {
-    width: 1400px;
-    height: 849px;   
+   
  }    
 .about-us-textblock {
-    width: 528px;
-    height: 330px;
-    display: inline-block;
-    text-align: left;
-    vertical-align: top;
-    margin: 0px 40px;
+    
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 }
 .about-us-numbers {
-width: 1400px;
-height: 273px;
+
 background: #8D7370;
 
 }
 .our-works {
-    width: 1200px;
-    height: 1099px;
    
 }
 .our-works-textblock {
-width: 488px;
-height: 451px;
+
 background: rgba(100, 72, 69, 0.8);
-display: inline-block;
-vertical-align: top;
+
 }
 .our-works p {
-width: 418px;
-height: 150px;
+
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -74,8 +62,7 @@ color: #FFFFFF;
 
 }
 .our-works h2 {
-width: 332px;
-height: 50px;
+
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
@@ -94,15 +81,12 @@ text-transform: uppercase;}
 content: url("img/Arrow_3.png");
 }   
 .team {
-    width: 1399px;
-    height: 998px;
+  
     background: #E2C4BA;
     
 }
 .team h2 {
 
-    margin-left: 550px;
-    display: inline-block;
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
@@ -113,14 +97,13 @@ text-transform: uppercase;
 
 .team-members {
     list-style-type: none;
-    text-align:left}
+    }
     
 figure {
-display: block;
-float: left;
+
 }
 figcaption {
-    width: 320px;
+   
         font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -128,30 +111,24 @@ figcaption {
     }
 
 .how-we-work {
-
-width: 1200px;
-height: 300px;}
+}
 
 .how-we-work-list {
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
-text-align: center;
+
 list-style:none;
 text-decoration: none;
 }
 .reviews {
-    width: 1036px;
-    height: 658px; 
+    
     
 }   
 #feedback-form {
-    width: 1400px;
-    height: 624px;
-    display: inline-block;
+   
   
 }
 footer {
- width: 1200px;
- height: 30px;}
+ }
