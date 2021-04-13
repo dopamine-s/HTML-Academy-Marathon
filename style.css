@@ -4,19 +4,31 @@ width: 1400px;
 font-family: Montserrat;
 color:#533738;
 background: #EFE6E4;}
-header a {text-decoration: none;} 
+
 header {
     width: 1400px;
-    height: 715px;}   
-
- .logo {text-transform: uppercase;}
+    height: 715px;} 
+header a {text-decoration: none;}
+ .logo {text-transform: uppercase;
+    font-size: 16px;
+line-height: 19,5px;
+}
  .logo img {margin-bottom: -3px;}   
 #header-img { background: 
     url("img/Header-background.png");
     background-size:auto;}
 .header-list {
-    list-style-type: none;   
-}   
+    list-style-type: none;}
+ .link{
+color:#533738;
+font-family: Montserrat;
+ }  
+ .link.request {
+     border: solid 1px #533738;
+     background: #CC8B86; 
+     padding: 10px;
+ }    
+   
 .about-us {
     width: 1400px;
     height: 849px;   
