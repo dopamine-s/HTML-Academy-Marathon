@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Главная - Scandi</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header id="header-img">
@@ -25,7 +27,7 @@
         <a href="tel:+79818574624" class="link">+7 (981) 857-46-24</a>
       </div>
        <div class="header-form">
-        <h1>Поможем сделать вашу квартиру уютнее</h1>
+        <h1 class="header-one">Поможем сделать вашу квартиру уютнее</h1>
         <p>
           Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем
           организовать доставку
@@ -155,11 +157,11 @@
         <h2>Оставить заявку</h2>
         <p>Оставьте ваши контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы</p>
         <form action="" method="post">
-          <label for="user-field">Ваше имя</label>
+          <label for="user-field" class="placeholder">Ваше имя</label>
         <input type="text" placeholder="Ваше имя" name="user" id="user-field">
-        <label for="phone-field">Ваш телефон</label>
-        <input type="tel" placeholder="Введите телефон" name="phone" id="phone-field">
-        <button type="submit">Оставить заявку</button>
+        <label for="phone-field" class="placeholder">Введите телефон</label>
+        <input type="tel" placeholder="Введите телефон" name="phone" id="phone-field" >
+        <button type="submit" class="placeholder">Оставить заявку</button>
       </form>
           <img src="img/Adress-map.png" 
           alt="Наш адрес - г. Санкт-петербург, ул. Большая Конюшенная, 19" width="590" height="624"/>
@@ -171,9 +173,9 @@
       </section>
     </main>
     <footer>
-      <a href="tel:+79818574624" class="link">+7 (981) 857-46-24</a>
-          <p> Санкт-Петербург, ул. Большая Конюшенная, 19</p>
-          <p>ИП Королёва А.А.</p>
+      <a href="tel:+79818574624" class="link contacts">+7 (981) 857-46-24</a>
+          <p class="contacts"> Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+          <p class="contacts">ИП Королёва А.А.</p>
     </footer>
   </body>
 </html>

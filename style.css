@@ -1,37 +1,48 @@
-body {
 
-font-family: Montserrat;
+
+body {
+font-family: "Montserrat", sans-serif;
 color:#533738;
 background: #EFE6E4;}
 
-header {
-    } 
+
 header a {text-decoration: none;}
- .logo {text-transform: uppercase;
-    font-size: 16px;
+.logo {
+text-transform: uppercase;    
+font-size: 16px;
 line-height: 19,5px;
 color:#533738;
+font-family: "Montserrat";
 }
- .logo img {}   
+   
 #header-img { background: 
     url("img/Header-background.png");
    }
-.header-list {
-    list-style-type: none;}
- .link{
+.header-list {list-style-type: none;}
+.header-one {font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 62px;}
+header .link {
 color:#533738;
-font-family: Montserrat;
+font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
  }  
+
  .link.request {
      border: solid 1px #533738;
      background: #CC8B86;
-     ; 
-     
+     font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;    
  }    
    
-.about-us {
-   
- }    
 .about-us-textblock {
     
 font-style: normal;
@@ -40,12 +51,7 @@ font-size: 18px;
 line-height: 30px;
 }
 .about-us-numbers {
-
 background: #8D7370;
-
-}
-.our-works {
-   
 }
 .our-works-textblock {
 
@@ -76,7 +82,9 @@ text-transform: uppercase;}
     font-size: 30px;
     line-height: 37px;
     text-decoration: none;}
-    
+ .moar {
+    color:#533738;
+ }   
 .moar::after {
 content: url("img/Arrow_3.png");
 }   
@@ -99,9 +107,7 @@ text-transform: uppercase;
     list-style-type: none;
     }
     
-figure {
 
-}
 figcaption {
    
         font-style: normal;
@@ -110,8 +116,6 @@ figcaption {
     line-height: 30px;
     }
 
-.how-we-work {
-}
 
 .how-we-work-list {
 font-style: normal;
@@ -122,13 +126,41 @@ line-height: 30px;
 list-style:none;
 text-decoration: none;
 }
-.reviews {
-    
-    
-}   
-#feedback-form {
-   
-  
-}
-footer {
- }
+
+
+
+
+.contacts {
+font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px; 
+ 
+}    
+footer .contacts {
+    text-decoration: none;
+     }
+footer .link {
+font-family: "Montserrat";
+font-style: normal;
+ font-weight: normal;
+font-size: 18px;
+ line-height: 30px;
+ color:#533738; } 
+ footer  .placeholder  {
+    font-family: "Montserrat";
+    font-style: normal;
+     font-weight: normal;
+    font-size: 18px;
+     line-height: 30px;
+     color:#533738; }   
+     footer .button {
+        font-family: "Montserrat";
+        font-style: normal;
+         font-weight: normal;
+        font-size: 18px;
+         line-height: 30px; 
+         color:#533738;
+
+     }
