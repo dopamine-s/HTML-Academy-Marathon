@@ -190,14 +190,14 @@ background: #8D7370;
     font-size: 18px;
     line-height: 30px;
     color: #533738;}   
-.feedback-form {background: #8D7370;}    
-.feedback-form {font-family: "Montserrat";
+ .feedback-form {font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-       color: #FFFFFF;}
-.feedback-form p{
+       color: #FFFFFF;
+       background: #8D7370;}
+.feedback-form-info{
                 opacity: 0.6;}
 .feedback-form-header {
     font-family: "Montserrat";
@@ -208,16 +208,19 @@ background: #8D7370;
     text-transform: uppercase;
     color: #FFFFFF;}
    
-    #phone-field, #user-field {
+    .placeholder {
+        display: none;
+    }
+    .placeholder.user-field {
         font-family: "Montserrat";
         font-style: normal;
         font-weight: normal;
         font-size: 18px;
         line-height: 30px;
-        
         background: #8D7370;
         border-style: none;
-        color: #FFFFFF;
+        color: #F6EDE9;
+   
         
     
     }
@@ -233,28 +236,21 @@ line-height: 30px;
 footer .contacts {
     text-decoration: none;
      }
-footer .link {
+footer .link.contacts {
 font-family: "Montserrat";
 font-style: normal;
  font-weight: normal;
 font-size: 18px;
  line-height: 30px;
- color:#533738; } 
- footer  .placeholder  {
-    font-family: "Montserrat";
+ color:#533738; }  
+.feedback-form .button {
+    font-family: Montserrat;
     font-style: normal;
-     font-weight: normal;
-    font-size: 18px;
-     line-height: 30px;
-     color:#533738; }   
-     .button {
-        font-family: "Montserrat";
-        font-style: normal;
-         font-weight: normal;
-        font-size: 18px;
-         line-height: 30px; 
-         color:#533738;
-         width: 310px;
-         height: 74px;
-         background: #8D7370;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #533738;
+    width: 310px;
+    height: 74px;
+    background: #CC8B86;
   }
