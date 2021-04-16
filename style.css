@@ -5,9 +5,7 @@ font-family: "Montserrat", sans-serif;
 color:#533738;
 background: #EFE6E4;}
 
-header {
-   
-}
+
 header a {text-decoration: none;}
 .logo {
 text-transform: uppercase;    
@@ -42,15 +40,20 @@ line-height: 20px;
     border: solid 1px #CC8B86;
     background: #CC8B86;}  
  .link.request {
-     
-     
-     font-family: "Montserrat";
+font-family: "Montserrat";
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
 line-height: 24px;    
  }    
-   
+ 
+.about-us-header {font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;} 
 .about-us-textblock {
     
 font-style: normal;
@@ -61,30 +64,52 @@ line-height: 30px;
 .about-us-numbers {
 background: #8D7370;
 }
+.about-us-numbers dt{
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 62px;
+color: #FFFFFF;
+}
+.about-us-numbers dd{
+    font-family: "Montserrat";
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
 .our-works-textblock {
 
 background: rgba(100, 72, 69, 0.8);
-
-}
-.our-works p {
-
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
 line-height: 30px;
 color: #FFFFFF;
-
 }
-.our-works h2 {
+.our-works-textblock p:first-child {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;}
 
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 50px;
-text-transform: uppercase;}
+.our-works-header {
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #533738;}
 
 
-.our-works a {
+.our-works .link {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
@@ -101,14 +126,12 @@ content: url("img/Arrow_3.png");
     background: #E2C4BA;
     
 }
-.team h2 {
-
+.team-header {
 font-style: normal;
 font-weight: normal;
 font-size: 40px;
 line-height: 50px;
 text-transform: uppercase;
-
 }
 
 .team-members {
@@ -134,9 +157,70 @@ line-height: 30px;
 list-style:none;
 text-decoration: none;
 }
-
-
-
+.how-we-work-list span{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 70px;
+height: 70px;
+background: #8D7370;
+    }
+.reviews-header {font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase; 
+    color: #533738;}
+.reviews-quote {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;}
+ .reviews-author 
+   {font-family: "Montserrat";
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #533738;}   
+.feedback-form {background: #8D7370;}    
+.feedback-form {font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+       color: #FFFFFF;}
+.feedback-form p{
+                opacity: 0.6;}
+.feedback-form-header {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #FFFFFF;}
+   
+    #phone-field, #user-field {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 30px;
+        
+        background: #8D7370;
+        border-style: none;
+        color: #FFFFFF;
+        
+    
+    }
 
 .contacts {
 font-family: "Montserrat";
@@ -163,12 +247,13 @@ font-size: 18px;
     font-size: 18px;
      line-height: 30px;
      color:#533738; }   
-     footer .button {
+     footer button {
         font-family: "Montserrat";
         font-style: normal;
          font-weight: normal;
         font-size: 18px;
          line-height: 30px; 
          color:#533738;
-
-     }
+         width: 474px;
+         height: 50px;
+  }

@@ -39,7 +39,7 @@
     </header>
     <main>
       <section class="about-us" id="about-us">
-       <h2> О нас</h2>
+       <h2 class="about-us-header"> О нас</h2>
         <img src="img/About_us_premium_style.png" 
         alt="Премиальный европейский текстиль — одно из самых главных направлений работы коллектива." width="444" height="465"/>
         <div class="about-us-textblock"> <p>Премиальный европейский текстиль — одно из самых главных направлений работы коллектива. Создавать неповторимые интерьеры для наших дорогих клиентов, 
@@ -61,7 +61,7 @@
         </div>
       </section> 
       <section class="our-works" id="our-works">
-          <h2>Наши работы</h2>
+          <h2 class="our-works-header">Наши работы</h2>
             <div class="our-works-textblock">
              <p>Квартира-студия <br>
               30 кв.м</p>
@@ -83,7 +83,7 @@
                </nav>
       </section>  
       <section class="team" id="team">
-        <h2>Команда</h2> 
+        <h2 class="team-header">Команда</h2> 
         <ul class="team-members"> 
           <li><figure> 
             <img src="img/Maria-main-designer.png" alt="Это Маша, наш главный дизайнер" width="320" height="249"/>
@@ -133,9 +133,9 @@
         </div>
       </section>
       <section class="reviews" id="reviews"> 
-        <h2>Отзывы</h2>
+        <h2 class="reviews-header">Отзывы</h2>
         
-           <figure class="quote">
+           <figure class="reviews-quote">
            <blockquote>
             <p>«Восторг! Спасибо, за комфортную жизнь.
                Очень рада, что выбрала вашу студию для 
@@ -146,7 +146,7 @@
              <p>Буду советовать и своим друзьям к вам
              обращаться!»</p>
            </blockquote>
-           <figcaption>
+           <figcaption class="reviews-author">
              Анна Беловская
            </figcaption>
           </figure>
@@ -155,23 +155,18 @@
             <p><img src="img/Reviews-anna-interior-2.png" alt="Дизайн интерьера для Анны (2)" width="407" height="272"></p>
           </figure>
             </section>
-      <section id="feedback-form">
-        <h2>Оставить заявку</h2>
-        <p>Оставьте ваши контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы</p>
+      <section id="feedback-form" class="feedback-form">
+        <h2 class="feedback-form-header">Оставить заявку</h2>
+        <p>Оставьте ваши контакты. Менеджер перезвонит в удобное вам время и ответит на все вопросы.</p>
         <form action="" method="post">
-          <label for="user-field" class="placeholder">Ваше имя</label>
+          <label for="user-field" class="placeholder"></label>
         <input type="text" placeholder="Ваше имя" name="user" id="user-field">
-        <label for="phone-field" class="placeholder">Введите телефон</label>
-        <input type="tel" placeholder="Введите телефон" name="phone" id="phone-field" >
+        <label for="phone-field" class="placeholder"></label>
+        <input type="tel" placeholder="Введите телефон" name="phone" id="phone-field">
         <button type="submit" class="placeholder">Оставить заявку</button>
       </form>
           <img src="img/Adress-map.png" 
           alt="Наш адрес - г. Санкт-петербург, ул. Большая Конюшенная, 19" width="590" height="624"/>
-          <!-- сперва мне показалось, что карта реализована вставкой сервиса карт. 
-        Потом я понял, что все проще. Адрес - просто картинка. 
-        И подпункты в в футере -не интерактивные
-      (Хотя можно было бы, к примеру, реализовать менюшку с реквизитами и прикрепить адрес
-      к сервису карт) -->
       </section>
     </main>
     <footer>
