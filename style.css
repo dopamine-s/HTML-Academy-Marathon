@@ -140,15 +140,17 @@ figcaption {
   list-style: none;
   text-decoration: none;
 }
-.how-we-work-list span {
+.how-we-work-numbers {
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 30px;
+  padding-inline: 10px;
   color: #ffffff;
   width: 70px;
   height: 70px;
   background-color: #8d7370;
+  border-radius: 20px;
 }
 .reviews-quote {
   font-style: normal;
