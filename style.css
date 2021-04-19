@@ -15,8 +15,8 @@ color:#533738;
 font-family: "Montserrat";
 }
    
-#header-img { background: 
-    url("img/Header-background.png");
+.page-header { background: 
+    url("img/header-background.png");
    }
 
 header .link {
@@ -28,7 +28,7 @@ font-size: 16px;
 line-height: 20px;
  } 
 .header-list {list-style-type: none;}
-.header-one {font-family: "Montserrat";
+.header-title {font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
     font-size: 50px;
@@ -47,7 +47,7 @@ font-size: 20px;
 line-height: 24px;    
  }    
  
-.about-us-header {font-family: "Montserrat";
+.h2-title {font-family: "Montserrat";
     font-style: normal;
     font-weight: normal;
     font-size: 40px;
@@ -98,17 +98,6 @@ color: #FFFFFF;
     line-height: 37px;
     color: #FFFFFF;}
 
-.our-works-header {
-
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #533738;}
-
-
 .our-works .link {
     font-style: normal;
     font-weight: 500;
@@ -119,19 +108,10 @@ color: #FFFFFF;
     color:#533738;
  }   
 .moar::after {
-content: url("img/Arrow_3.png");
+content: url("img/arrow-3.png");
 }   
-.team {
-  
-    background: #E2C4BA;
-    
-}
-.team-header {
-font-style: normal;
-font-weight: normal;
-font-size: 40px;
-line-height: 50px;
-text-transform: uppercase;
+.team { 
+    background: #E2C4BA;    
 }
 
 .team-members {
@@ -168,13 +148,6 @@ text-decoration: none;
 height: 70px;
 background: #8D7370;
     }
-.reviews-header {font-family: "Montserrat";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase; 
-    color: #533738;}
 .reviews-quote {
     font-family: "Montserrat";
     font-style: normal;
@@ -199,14 +172,8 @@ background: #8D7370;
        background: #8D7370;}
 .feedback-form-info{
                 opacity: 0.6;}
-.feedback-form-header {
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 50px;
-    text-transform: uppercase;
-    color: #FFFFFF;}
+.h2-bright-title{
+     color: #FFFFFF;}
    
     .placeholder {
         display: none;}
