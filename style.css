@@ -46,13 +46,14 @@ header .link {
   line-height: 30px;
 }
 
-.link.request {
+.request-link {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   border: solid 20px #cc8b86;
   padding: 0px 40px;
   background-color: #cc8b86;
+  color: var(--main-text-color);
 }
 
 .h2-title {
