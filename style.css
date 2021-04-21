@@ -106,12 +106,12 @@ header .link {
 .more {
   color: var(--main-text-color);
   font-family: "Montserrat";
-  font-size: 16px;
-  line-height: 20px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
 }
 
 .more::after {
-  content: “”;
   color: var(--main-text-color);
   background: url("img/arrow-3.png") no-repeat;
 }
