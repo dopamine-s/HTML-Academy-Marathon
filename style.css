@@ -174,7 +174,7 @@ header .link {
   color: #ffffff;
 }
 
-.placeholder {
+.input-field-label {
   display: none;
 }
 
@@ -196,8 +196,6 @@ header .link {
 }
 
 .contacts {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
 }
@@ -209,8 +207,6 @@ footer .contacts {
   text-decoration: none;
 }
 footer .link.contacts {
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 30px;
   color: var(--main-text-color);
@@ -220,8 +216,8 @@ footer .link.contacts {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: var(--main-text-color);
-  width: 310px;
-  height: 74px;
+  border: solid 20px #cc8b86;
+  padding: 0px 40px;
   background-color: #cc8b86;
+  color: var(--main-text-color);
 }
