@@ -178,7 +178,7 @@ header .link {
   display: none;
 }
 
-::placeholder {
+.feedback-form .feedback-form-input-field::placeholder {
   color: #f6ede9;
 }
 
@@ -202,10 +202,10 @@ header .link {
   border-bottom: 1px;
   color: cornsilk;
 }
-footer .contacts {
+.footer .contacts {
   text-decoration: none;
 }
-footer .link.contacts {
+.footer .link.contacts {
   font-size: 18px;
   line-height: 30px;
   color: var(--main-text-color);
