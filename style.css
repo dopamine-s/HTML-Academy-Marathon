@@ -109,11 +109,17 @@ header .link {
   font-weight: 500;
   font-size: 30px;
   line-height: 37px;
+  position: relative;
 }
 
 .more::after {
   color: var(--main-text-color);
-  background: url("img/arrow-3.png") no-repeat;
+  content: "";
+  position: absolute;
+  top: 13px;
+  width: 61px;
+  height: 16px;
+  background: url("img/arrow-3.png");
 }
 
 .team {
